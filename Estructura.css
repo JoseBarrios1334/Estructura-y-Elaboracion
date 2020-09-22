@@ -1,0 +1,99 @@
+
+nav{
+  width: 100%;
+  position: absolute;
+  text-align:center;
+  background: #000000;
+}
+nav a{
+  font-family: 'Oswald', sans-serif;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  color: white;
+  margin:10px;
+  font-size:16px;
+  letter-spacing:1px;
+  position:relative;
+  display:inline-block;
+}
+nav a:before{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background:white;
+  top:47%;
+  animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
+@keyframes in{
+  0%{
+    width: 0;
+    left:0;
+    right:auto;
+  }
+  100%{
+    left:0;
+    right:auto;
+    width: 100%;
+  }
+}
+@keyframes out{
+  0%{
+    width:100%;
+    left: auto;
+    right: 0;
+  }
+  100%{
+    width: 0;
+    left: auto;
+    right: 0;
+  }
+}
+@keyframes show{
+  0%{
+    opacity:0;
+    transform:translateY(-10px);
+  }
+  100%{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+@for $i from 1 through 5 {
+  nav a:nth-child(#{$i}){
+    animation:show .2s #{$i*0.1+1}s ease 1 both;
+  }
+}
+body {
+  position: static;
+  background: #F0F0F0;
+
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:#16151b;
+  margin:10px;
+  position: absolute; left: 410px;top:470px;
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+  position: absolute; left: 60px;top:570px;
+  height: 160px;
+  width: 1200px;
+   font-size:20px; 
+  
+}
+h4 {
+
+  font-family: 'Oswald', sans-serif;
+  position: absolute; left: 60px;top:720px;
+  height: 160px;
+  width: 1200px;
+   font-size:20px; 
+  
+}
