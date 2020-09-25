@@ -1,8 +1,8 @@
-
 nav{
+  left: 0px;
+  margin: 0px; 
   width: 100%;
   position: absolute;
-  text-align:center;
   background: #000000;
 }
 nav a{
@@ -108,4 +108,17 @@ h4 {
   width: 1200px;
    font-size:20px; 
   
+}
+footer{
+    top:1550px;
+   position: absolute;
+    text-align: center;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+    color: white;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+   background:black;
 }
