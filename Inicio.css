@@ -1,8 +1,9 @@
 
 nav{
+  left: 0px;
+  margin: 0px; 
   width: 100%;
   position: absolute;
-  text-align:center;
   background: #000000;
 }
 nav a{
@@ -11,6 +12,7 @@ nav a{
   text-transform:uppercase;
   text-decoration:none;
   color: white;
+  left: 270px;
   margin:10px;
   font-size:16px;
   letter-spacing:1px;
@@ -75,14 +77,14 @@ body {
   background: #F0F0F0;
 
 }
+
 h1 {
   font-family: 'Oswald', sans-serif;
   font-weight:500;
-  text-transform:uppercase;
-  text-decoration:none;
   color:#16151b;
   margin:10px;
   position: absolute; left: 520px;top:570px;
+  text-align:center;
 }
 h2 {
   font-family: 'Oswald', sans-serif;
@@ -90,16 +92,19 @@ h2 {
   height: 160px;
   width: 1200px;
    font-size:20px; 
-  
+  text-align:center;
 }
-p {
-  
-  left: 560px;
-    top:1270px;
+
+footer{
+    top:1300px;
    position: absolute;
     text-align: center;
     font-family: 'Cherry Swash',cursive;
     font-size: 16px;
-    color: black;
-
+    color: white;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+   background:black;
 }
