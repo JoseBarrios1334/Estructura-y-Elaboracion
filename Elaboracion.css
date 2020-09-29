@@ -1,6 +1,6 @@
 
 nav{
-  left: 0px;
+left: 0px;
   margin: 0px; 
   width: 100%;
   position: absolute;
@@ -26,10 +26,6 @@ nav a:before{
   background:white;
   top:47%;
   animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
-}
-nav a:hover:before{
-  animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
-
 }
 @keyframes in{
   0%{
@@ -83,7 +79,9 @@ h1 {
   text-decoration:none;
   color:#16151b;
   margin:10px;
-  position: absolute; left: 260px;top:435px;
+  position: absolute; 
+  left: 360px;
+  top:415px;
 }
 h2 {
   font-family: 'Oswald', sans-serif;
@@ -93,25 +91,16 @@ h2 {
    font-size:20px; 
   
 }
-h3 {
-  font-family: 'Oswald', sans-serif;
-  font-weight:500;
-  text-transform:uppercase;
-  text-decoration:none;
-  color:#16151b;
-  margin:10px;
-  position: absolute; left: 560px;top:1095px;
-}
 h4 {
   font-family: 'Oswald', sans-serif;
-  position: absolute; left: 60px;top:1150px;
+  position: absolute; left: 60px;top:600px;
   height: 160px;
   width: 1200px;
    font-size:20px; 
   
 }
 footer{
-    top:1550px;
+  top:1400px;
    position: absolute;
     text-align: center;
     font-family: 'Cherry Swash',cursive;
@@ -123,3 +112,4 @@ footer{
    width:100%;
    background:black;
 }
+

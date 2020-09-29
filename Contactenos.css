@@ -27,10 +27,6 @@ nav a:before{
   top:47%;
   animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 }
-nav a:hover:before{
-  animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
-
-}
 @keyframes in{
   0%{
     width: 0;
@@ -76,42 +72,12 @@ body {
   background: #F0F0F0;
 
 }
-h1 {
-  font-family: 'Oswald', sans-serif;
-  font-weight:500;
-  text-transform:uppercase;
-  text-decoration:none;
-  color:#16151b;
-  margin:10px;
-  position: absolute; left: 260px;top:435px;
-}
-h2 {
-  font-family: 'Oswald', sans-serif;
-  position: absolute; left: 60px;top:530px;
-  height: 160px;
-  width: 1200px;
-   font-size:20px; 
-  
-}
-h3 {
-  font-family: 'Oswald', sans-serif;
-  font-weight:500;
-  text-transform:uppercase;
-  text-decoration:none;
-  color:#16151b;
-  margin:10px;
-  position: absolute; left: 560px;top:1095px;
-}
-h4 {
-  font-family: 'Oswald', sans-serif;
-  position: absolute; left: 60px;top:1150px;
-  height: 160px;
-  width: 1200px;
-   font-size:20px; 
-  
+fieldset{
+  position: absolute;
+  top: 205px;
 }
 footer{
-    top:1550px;
+  top:550px;
    position: absolute;
     text-align: center;
     font-family: 'Cherry Swash',cursive;
