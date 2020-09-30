@@ -1,5 +1,27 @@
 
+aside{
+  letter-spacing:50px;
+  top:330px;
+  position: absolute;
+  text-align: center;
+  left:0px;
+  height:35%;
+  width:100%;
+  background:#F0F0F0;
+}
+.Gif{
+  letter-spacing:50px;
+  top:1400px;
+  position: absolute;
+  text-align: center;
+  left:0px;
+  height:0%;
+  width:100%;
+  background:#F0F0F0;
+}
 nav{
+  text-align: center;
+  top: 233px;
   left: 0px;
   margin: 0px; 
   width: 100%;
@@ -73,11 +95,12 @@ body {
 
 }
 fieldset{
+  text-align: center;
   position: absolute;
-  top: 205px;
+  top: 335px;
 }
 footer{
-  top:550px;
+  top:650px;
    position: absolute;
     text-align: center;
     font-family: 'Cherry Swash',cursive;

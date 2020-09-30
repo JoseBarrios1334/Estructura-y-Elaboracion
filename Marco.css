@@ -1,5 +1,16 @@
-
+aside{
+  letter-spacing:50px;
+  top:330px;
+  position: absolute;
+  text-align: center;
+  left:0px;
+  height:35%;
+  width:100%;
+  background:#F0F0F0;
+}
 nav{
+text-align: center;
+  top: 233px;
   left: 0px;
   margin: 0px; 
   width: 100%;
@@ -77,41 +88,53 @@ body {
 
 }
 h1 {
+  text-align: center;
   font-family: 'Oswald', sans-serif;
   font-weight:500;
   text-transform:uppercase;
   text-decoration:none;
   color:#16151b;
   margin:10px;
-  position: absolute; left: 260px;top:435px;
+  position: absolute; 
+  top:635px;
+  width: 100%;
 }
 h2 {
-  font-family: 'Oswald', sans-serif;
-  position: absolute; left: 60px;top:530px;
-  height: 160px;
-  width: 1200px;
-   font-size:20px; 
-  
+  top: 730px;
+  position: absolute;
+    text-align: center;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+    color: black;
+   left:280px;
+   height:35%;
+   width:70%;
 }
 h3 {
-  font-family: 'Oswald', sans-serif;
-  font-weight:500;
-  text-transform:uppercase;
-  text-decoration:none;
-  color:#16151b;
-  margin:10px;
-  position: absolute; left: 560px;top:1095px;
+  top:1255px;
+  position: absolute;
+    text-align: center;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+    color: black;
+   height:35%;
+   width:100%;
 }
 h4 {
-  font-family: 'Oswald', sans-serif;
-  position: absolute; left: 60px;top:1150px;
-  height: 160px;
-  width: 1200px;
-   font-size:20px; 
+top:1300px;
+position: absolute;
+    text-align: center;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+    color: black;
+   left:280px;
+   height:35%;
+   width:70%;
+   
   
 }
 footer{
-    top:1550px;
+    top:1650px;
    position: absolute;
     text-align: center;
     font-family: 'Cherry Swash',cursive;
